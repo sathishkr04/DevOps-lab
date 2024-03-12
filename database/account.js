@@ -13,4 +13,4 @@ const accountSchema = new Schema({
 });
 
 /*[ Register in database ]*/
-module.exports = model("Account", accountSchema, "accounts");
+module.exports = model("User", accountSchema, "users");
